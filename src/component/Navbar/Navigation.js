@@ -17,9 +17,9 @@ const Navigation = () => {
             className="ms-auto  my-2 my-lg-0"
 
           >
-            <Nav.Link className='list-item text-light nav-items' href="#action1">Home</Nav.Link>
+            <Nav.Link className='list-item text-light nav-items' href="/home">Home</Nav.Link>
             <Nav.Link className='list-item text-light nav-items' href="#action2">Product</Nav.Link>
-            <Nav.Link className='list-item text-light nav-items' href="#action2">Services</Nav.Link>
+            <Nav.Link className='list-item text-light nav-items' href="/services">Services</Nav.Link>
             <Nav.Link className='list-item text-light nav-items' href="#action2">Projects</Nav.Link>
             <Nav.Link className='list-item text-light nav-items' href="#action2">Careers</Nav.Link>
             <Nav.Link className='list-item text-light nav-items' href="#action2">Blog</Nav.Link>
