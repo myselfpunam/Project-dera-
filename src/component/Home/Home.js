@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css'
 import videobg from '../assets/videos/backgroundVideo.mp4'
 import Gallary from '../Gallary/Gallary';
+import ShortDes from '../ShortDes/ShortDes';
 const Home = () => {
   return (
     <div>
@@ -19,6 +20,9 @@ const Home = () => {
       </div>
       <div>
         <Gallary></Gallary>
+      </div>
+      <div>
+        <ShortDes></ShortDes>
       </div>
     </div>
   );
