@@ -137,6 +137,9 @@ const ShortProject = () => {
             </Card>
           </div>
         </div>
+        <div className='pb-4'>
+          <button className='about-btn'>More Project</button>
+        </div>
       </div>
     </section>
   );
