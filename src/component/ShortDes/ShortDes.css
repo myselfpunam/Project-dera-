@@ -1,5 +1,5 @@
 .shortdes-container{
-  background-image: url('../assets/images/contemporary-sofa-modern-room.jpg');
+  background: url('../assets/images/contemporary-sofa-modern-room.jpg') fixed center center;
   background-size: cover;
   background-position: center;
   width: 100%;
