@@ -20,7 +20,8 @@ const Gallary = () => {
   }, [])
   return (
    <div className='gallary-container'>
-    <h2 className='text-container'>Swipe Left Or Right</h2>
+    <h1 className='text-container'></h1>
+    <h2 className='text-insturction'>Our photos</h2>
     <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -34,10 +35,9 @@ const Gallary = () => {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow]}
         className="mySwiper"
       >
-        <h1 className='text-container2'>{pic.length} Pictures Are There</h1>
         
         {
           pic.map(p => (

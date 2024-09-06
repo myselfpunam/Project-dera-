@@ -3,6 +3,8 @@ import './Home.css'
 import videobg from '../assets/videos/backgroundVideo.mp4'
 import Gallary from '../Gallary/Gallary';
 import ShortDes from '../ShortDes/ShortDes';
+import ShortBlog from '../ShortBlog/ShortBlog';
+import ShortProject from '../ShortProject/ShortProject';
 const Home = () => {
   return (
     <div>
@@ -18,12 +20,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Gallary></Gallary>
-      </div>
-      <div>
         <ShortDes></ShortDes>
-      </div>
+        <Gallary></Gallary>
+        <ShortProject></ShortProject>
     </div>
   );
 };
