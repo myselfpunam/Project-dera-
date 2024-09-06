@@ -5,12 +5,14 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Nav.css'
-
+import logo from '../assets/images/logoipsum-331.svg'
 const Navigation = () => {
   return (
     <Navbar expand="lg" className="nav-container sticky-top">
       <Container fluid>
-        <Navbar.Brand className='brand-icon' href="#">Icon Here</Navbar.Brand>
+        <Navbar.Brand className='brand-icon' href="#">
+          <img src={logo} width="50" height="50" class="d-inline-block align-top" alt="" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav
@@ -25,16 +27,11 @@ const Navigation = () => {
             <Nav.Link className='list-item text-light nav-items' href="#action2">Blog</Nav.Link>
             <Nav.Link className='list-item text-light nav-items' href="#action2">Contact Us</Nav.Link>
           </Nav>
-          
-          <Form className="d-flex ms-auto">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button className='btn-search'>Search</Button>
-          </Form>
+
+          <div className="button-container ms-auto">
+            <button className="styled-button">login</button>
+            <button className="styled-button">Signup</button>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -46,78 +46,33 @@
 .navbar-toggler{
   background: #DDBD73 !important;
 }
-/* .nav-logo{
-  width: 60px;
-}
-.nav-items{
+.button-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 20px;
 }
-.nav-items li{
-  list-style: none;
-  padding: 0 20px;
+.styled-button {
+  background-color: #DDBD73; 
+  color: black; 
+  border: 2px solid #DDBD73; 
+  padding: 5px 10px; 
+  font-size: 1.2rem; 
+  font-weight: bold; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
 }
 
-.nav-items li a{
-  position: relative;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 600;
-  color: black;
-  transition: .3s ease-in-out;
-  color: #fff;
+.styled-button:hover {
+  background-color: #fff; 
+  color: black; 
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2); 
+  transform: translateY(3px); 
 }
-.nav-items li a:hover{
-  color: rgb(24, 187, 60);
+
+.styled-button:active {
+  transform: translateY(2px); 
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
 }
-.nav-items li a::before{
-  content:'';
-  position: absolute;
-  top: 100%;
-  left:0;
-  height: 2px;
-  width: 0;
-  background: rgb(24, 187, 60);
-  transition: .3s;
-}
-.nav-items li a:hover::before{
-  width: 100%;
-}
-.search{
-  display: flex;
-}
-.search-box{
-  border: 1px solid rgb(24, 187, 60);
-  color: #fff;
-}
-.menu{
-  display: none;
-}
-.hamburger{
-  color: rgb(24, 187, 60);
-  font-size: 40px;
-}
-@media only  screen and (max-width: 1024px ){
-  .nav-items{
-    display: none;
-  }
-  .search{
-    display: flex;
-  }
-  .menu{
-    display: block;
-  }
-}
-@media only  screen and (max-width: 768px){
-  .nav-items{
-    display: none;
-  }
-  .search{
-    display: none;
-  }
-  .menu{
-    display: block;
-  }
-}
- */
