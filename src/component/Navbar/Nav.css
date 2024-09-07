@@ -51,11 +51,12 @@
   gap: 20px;
 }
 .styled-button {
+  margin-left: 20px;
   background-color: #DDBD73; 
   color: black; 
   border: 2px solid #DDBD73; 
   padding: 1px 5px; 
-  font-size: 1.2rem; 
+  font-size: 1rem; 
   font-weight: bold; 
   border-radius: 5px; 
   cursor: pointer;

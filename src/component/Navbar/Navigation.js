@@ -27,11 +27,8 @@ const Navigation = () => {
             <Nav.Link className='list-item text-light nav-items' href="#action2">Blog</Nav.Link>
             <Nav.Link className='list-item text-light nav-items' href="#action2">Contact Us</Nav.Link>
           </Nav>
-
-          <div className="button-container ms-auto">
-            <button className="styled-button">login</button>
-            <button className="styled-button">Signup</button>
-          </div>
+          <button className="styled-button ms-auto">login</button>
+          <button className="styled-button">Signup</button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
