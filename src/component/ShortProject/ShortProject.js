@@ -138,7 +138,7 @@ const ShortProject = () => {
           </div>
         </div>
         <div className='pb-4'>
-          <button className='about-btn'>More Project</button>
+          <button className='about-btn'>MORE PROJECT</button>
         </div>
       </div>
     </section>
