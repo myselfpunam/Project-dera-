@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .gallary-container{
   background: url(../assets/images/gallary-background.jpg) fixed center center;
   background-size: cover;
@@ -30,9 +31,12 @@
   color:  #DDBD73;
 }
 .text-insturction{
+  font-family: "Playfair Display", serif;
+  text-shadow: -2px -2px 0 #583f04, 2px -2px 0 #583f04, 2px 2px 0 #583f04,
+  2px 2px 0 #583f04;
   padding-top: 150px;
   color:  #DDBD73;
-  font-size: 3rem; 
+  font-size: 4rem; 
   font-weight: bold;
 }
 .text-container2{

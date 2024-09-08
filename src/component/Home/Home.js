@@ -6,6 +6,7 @@ import ShortDes from '../ShortDes/ShortDes';
 import ShortBlog from '../ShortBlog/ShortBlog';
 import ShortProject from '../ShortProject/ShortProject';
 import CarouselSection from '../Carousel/Carousel';
+import ContactUs from '../ContactUs/ContactUs';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ShortDes></ShortDes>
       <Gallary></Gallary>
       <ShortProject></ShortProject>
+      <ContactUs></ContactUs>
     </div>
   );
 };

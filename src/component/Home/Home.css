@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 .home-container{
 width: 100%;
@@ -29,22 +30,29 @@ video{
   background-color: rgba(0,0,0,.1);
 }
 .primary-text{
+  font-family: "Playfair Display", serif;
+  text-shadow: -2px -2px 0 #583f04, 2px -2px 0 #583f04, 2px 2px 0 #583f04,
+    2px 2px 0 #583f04;
   color: #DDBD73;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bold;
 }
 .secondary-text{
-  font-size: 1rem;
+  font-family: "Space Grotesk", sans-serif;
+  text-shadow: -2px -2px 0 #583f04, 2px -2px 0 #583f04, 2px 2px 0 #583f04,
+  2px 2px 0 #583f04;
+  font-size: 1.5rem;
   width: 80%;
 }
 .home-btn{
   border: 1px solid #DDBD73;
   background: transparent;
-  border-radius: 2px;
+  border-radius: 15px;
   margin-top: 20px;
   color: #fff;
   width: 200px;
   height: 50px;
+  font-weight: 600;
 }
 .home-btn:hover{
   background-color: #DDBD73;

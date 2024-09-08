@@ -6,8 +6,8 @@ import project_2 from '../assets/images/project_2.png'
 import project_3 from '../assets/images/Project_3.png'
 const ShortProject = () => {
   return (
-    <section className='shortProject-container'>
-      <div className="container">
+    <section className='shortProject-container pt-4'>
+      <div className="container pt-5">
         <h2 className='section-title pt-4 pb-5'>Our Recent Work</h2>
         <div className="row">
           <div className="col-md-4 mb-4">
@@ -127,8 +127,8 @@ const ShortProject = () => {
                 <div className="project-description">
                   <Card.Body>
                     <Card.Title className='text-title'>Project 3</Card.Title>
-                    <Card.Subtitle>Location</Card.Subtitle>
-                    <Card.Text>
+                    <Card.Subtitle className='text-subtitle'>Location</Card.Subtitle>
+                    <Card.Text className='text-description'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi optio assumenda hic nostrum eos fuga fugit harum asperiores officia consectetur repellat, quas temporibus quaerat repudiandae ullam qui! Eos, vero dolores!
                     </Card.Text>
                   </Card.Body>

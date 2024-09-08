@@ -21,7 +21,7 @@ const Gallary = () => {
   return (
    <div className='gallary-container'>
     <h1 className='text-container'></h1>
-    <h2 className='text-insturction'>Our photos</h2>
+    <h2 className='text-insturction'>Our Photos</h2>
     <Swiper
         effect={'coverflow'}
         grabCursor={true}
