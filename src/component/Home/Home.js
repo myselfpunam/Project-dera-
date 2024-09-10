@@ -7,6 +7,8 @@ import ShortBlog from '../ShortBlog/ShortBlog';
 import ShortProject from '../ShortProject/ShortProject';
 import CarouselSection from '../Carousel/Carousel';
 import ContactUs from '../ContactUs/ContactUs';
+import Services from '../Services/Services';
+import Members from '../Members/Members';
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <ShortDes></ShortDes>
       <Gallary></Gallary>
       <ShortProject></ShortProject>
+      <Services></Services>
+      <Members></Members>
       <ContactUs></ContactUs>
     </div>
   );

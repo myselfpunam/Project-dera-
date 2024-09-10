@@ -1,0 +1,34 @@
+.services-container{
+  background-color: #212124;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto
+}
+.card-box{
+  text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  border-radius: 20px;
+}
+ .card-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+ .card-box h4{
+  color: #151515;
+  transition: ease-in-out 0.3s;
+}
+
+ .card-box h4:hover {
+  color: #ffc451;
+}
+
+ .card-box p{
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
