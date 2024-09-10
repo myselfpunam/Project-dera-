@@ -7,6 +7,8 @@ import './Carousel.css';
 import video from '../assets/videos/backgroundVideo.mp4'
 import video2 from '../assets/videos/backgroundVideo2.mp4'
 import video3 from '../assets/videos/backgroundVideo3.mp4'
+import video4 from '../assets/videos/backgroundVideo4.webm'
+
 const CarouselSection = () => {
   const slides = [
     {
@@ -21,6 +23,11 @@ const CarouselSection = () => {
     },
     {
       videoUrl: video3,
+      title: "Where Creativity Meets Comfort",
+      text: "At Dera-Interior, we blend innovative design with cozy, functional living. Our goal is to create beautiful spaces that reflect your style and offer the comfort you deserve, making every room a perfect balance of creativity and ease.",
+    },
+    {
+      videoUrl: video4,
       title: "Where Creativity Meets Comfort",
       text: "At Dera-Interior, we blend innovative design with cozy, functional living. Our goal is to create beautiful spaces that reflect your style and offer the comfort you deserve, making every room a perfect balance of creativity and ease.",
     },
