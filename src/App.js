@@ -5,6 +5,8 @@ import './App.css';
 import Home from './component/Home/Home';
 import Main from './Main/Main';
 import Services from './component/Services/Services';
+import Login from './component/Login/Login';
+import ContactUs from './component/ContactUs/ContactUs';
 
 function App() {
   const router = createBrowserRouter([
@@ -16,18 +18,26 @@ function App() {
           path:'/',
           element:<Home></Home>
         },
+        
         {
           path:'home',
           element:<Home></Home>
         },
         {
           path:'services',
-          element:<Services>
-
-          </Services>
-        }
+          element:<Services></Services>
+        },
+        {
+          path:'contact',
+          element:<ContactUs></ContactUs>
+        },
+        
       ]
-    }
+    },
+    {
+      path:'login',
+      element:<Login></Login>
+    },
   ])
   return (
     <div className="App">

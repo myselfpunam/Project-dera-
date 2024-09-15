@@ -21,7 +21,7 @@ const ContactUs = () => {
                 Send
               </button>
             </div>
-            <div className="social-media-icon-container">
+            <div className="social-media-icon-container pb-4">
               <Link>
                 <div className="icon-block social-icon">
                   <svg height="37.7" id="ihxs6" viewBox="0 0 37.701 37.7" width="37.701" xmlns="http://www.w3.org/2000/svg">

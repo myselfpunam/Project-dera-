@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Nav.css'
 import logo from '../assets/images/logoipsum-331.svg'
+import { Link } from 'react-router-dom';
 const Navigation = () => {
   return (
     <Navbar expand="lg" className="nav-container sticky-top">
@@ -25,10 +26,12 @@ const Navigation = () => {
             <Nav.Link className='list-item text-light nav-items' href="#action2">Projects</Nav.Link>
             <Nav.Link className='list-item text-light nav-items' href="#action2">Careers</Nav.Link>
             <Nav.Link className='list-item text-light nav-items' href="#action2">Blog</Nav.Link>
-            <Nav.Link className='list-item text-light nav-items' href="#action2">Contact Us</Nav.Link>
+            <Nav.Link className='list-item text-light nav-items' href="/contact">Contact Us</Nav.Link>
           </Nav>
-          <button className="styled-button ms-auto">login</button>
+          <div className='ms-auto'>
+          <a href='/login'><button className="styled-button ms-auto">login</button></a>
           <button className="styled-button">Signup</button>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
