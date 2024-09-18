@@ -3,10 +3,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 import './Gallary.css';
 
 
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { EffectCoverflow, Pagination,  Autoplay } from 'swiper/modules';
 import Picture from '../Picture/Picture';
 
 
@@ -34,8 +35,12 @@ const Gallary = () => {
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={true}
-        modules={[EffectCoverflow]}
+        pagination={false}
+        autoplay={{
+          delay: 5000, 
+          disableOnInteraction: false, 
+        }}
+        modules={[EffectCoverflow, Pagination, Autoplay]} 
         className="mySwiper"
       >
         

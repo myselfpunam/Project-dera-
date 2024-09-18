@@ -1,7 +1,7 @@
 
 
 .nav-container{
-  position: fixed;
+  z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;
@@ -9,17 +9,20 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 10%;
-  background:#2C2C2C;
-  color: #fff;
+  background:#FFFFFF !important;
+  color: #1D1D1D;
+  font-weight: 600;
 }
+
 .brand-icon{
   color:  #DDBD73 !important ;
 }
 .list-item{
+  color: #1D1D1D;
   position: relative;
 }
 .list-item:hover{
-  color: #DDBD73 !important;
+  color: #DB4629 !important;
 }
 .list-item::before{
   content:'';
@@ -28,39 +31,41 @@
   left:4;
   height: 2px;
   width: 0;
-  background:#DDBD73 !important;
+  background:#f2efee !important;
   transition: .3s;
 }
 .list-item:hover::before{
   width: 60%;
 }
-.btn-search{
-  background-color: #1D1D1D !important;
-  border:  1px solid #DDBD73 !important;
+.navbar-toggler {
+  background-color: transparent !important; 
+  border: none;
+  padding: 0.5rem;
 }
-.btn-search:hover{
-  background-color: #DDBD73 !important;
-  color: #1D1D1D !important;
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%281, 1, 1, 1%29" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E') !important;
+  
+  background-size: 1.5em 1.5em;
 }
-.navbar-toggler.collapsed{
-  background: #DDBD73 !important;
+
+.navbar-toggler:focus {
+  outline: none; 
 }
-.navbar-toggler{
-  background: #DDBD73 !important;
-}
+
 .button-container {
   display: flex;
   gap: 20px;
 }
 .styled-button {
   margin-left: 20px;
-  background-color: #DDBD73; 
+
   color: black; 
-  border: 2px solid #DDBD73; 
+  border: 2px solid #DB4629; 
   padding: 2px 8px; 
   font-size: 1rem; 
   font-weight: bold; 
-  border-radius: 15px; 
+  border-radius: 10px; 
   cursor: pointer;
   transition: all 0.3s ease; 
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); 

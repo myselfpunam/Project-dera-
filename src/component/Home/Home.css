@@ -31,21 +31,19 @@ video{
 }
 .primary-text{
   font-family: "Playfair Display", serif;
-  text-shadow: -2px -2px 0 #583f04, 2px -2px 0 #583f04, 2px 2px 0 #583f04,
-    2px 2px 0 #583f04;
-  color: #DDBD73;
-  font-size: 5rem;
+  color: #ffffffe2;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 .secondary-text{
-  font-family: "Space Grotesk", sans-serif;
-  text-shadow: -2px -2px 0 #583f04, 2px -2px 0 #583f04, 2px 2px 0 #583f04,
-  2px 2px 0 #583f04;
+  /* background-color:  #949191ad !important; */
+  font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   width: 80%;
+  color: #ffffffad !important;
 }
 .home-btn{
-  border: 1px solid #DDBD73;
+  border: 1px solid #DB4629;
   background: transparent;
   border-radius: 15px;
   margin-top: 20px;
@@ -55,9 +53,9 @@ video{
   font-weight: 600;
 }
 .home-btn:hover{
-  background-color: #DDBD73;
+  background-color: #DB4629;
   color: black;
-  border: 1px solid #DDBD73;
+  border: 1px solid #DB4629;
 }
 @media only screen and (max-width: 600px) {
   .primary-text{

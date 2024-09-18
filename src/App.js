@@ -7,6 +7,8 @@ import Main from './Main/Main';
 import Services from './component/Services/Services';
 import Login from './component/Login/Login';
 import ContactUs from './component/ContactUs/ContactUs';
+import SignUp from './component/SignUp/SignUp';
+import Projects from './component/Projects/Projects';
 
 function App() {
   const router = createBrowserRouter([
@@ -31,12 +33,20 @@ function App() {
           path:'contact',
           element:<ContactUs></ContactUs>
         },
+        {
+          path:'projects',
+          element: <Projects></Projects>
+        },
         
       ]
     },
     {
       path:'login',
       element:<Login></Login>
+    },
+    {
+      path:'register',
+      element:<SignUp></SignUp>
     },
   ])
   return (

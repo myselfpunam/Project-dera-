@@ -1,0 +1,35 @@
+.project-container{
+  margin-top: 100px;
+}
+.image-container{
+  float: left;
+  position:relative;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom:10px
+}
+.image-container img{
+  width: 350px;
+  height: 220px;
+  border-radius: 15px;  
+}
+.image-container img:hover{
+  transform: scale(1.25);
+  transition: .9s ease;
+	
+}
+.project-title{
+  color: black;
+  width: 330px;
+  padding-top: 20px;
+}
+.primary-text-anchor{
+  color:#000000 ;
+}
+.primary-text-anchor:hover{
+  color:#DB4629 ;
+}
+.project-des{
+  width: 330px;
+  padding-top: 10px;
+}

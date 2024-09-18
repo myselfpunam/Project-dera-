@@ -11,8 +11,8 @@ import {
 const Footer = () => {
   return (
     <MDBFooter className='text-center' color='white' bgColor='dark'>
-      <MDBContainer className='p-4'>
-        <section className='mb-4'>
+      <MDBContainer className=''>
+        <section className=''>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
             voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
@@ -20,7 +20,7 @@ const Footer = () => {
           </p>
         </section>
 
-        <section className=''>
+        <section className='mb-3'>
           <MDBRow>
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
               <h5 className='text-uppercase'>Dera Project</h5>

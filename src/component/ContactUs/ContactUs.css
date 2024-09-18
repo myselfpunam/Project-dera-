@@ -53,7 +53,7 @@
   padding-right: 50px;
   padding-bottom: 0px;
   padding-left: 50px;
-  background-color: #212124;
+  background-color: #ffffff;
 }
 
 .arch_contact_us_duplicate .responsive-container-block.container {
@@ -70,7 +70,7 @@
   margin-left: 0px;
 }
 ::placeholder{
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -167,13 +167,14 @@
   margin-right: 0px;
   margin-bottom: 60px;
   margin-left: 0px;
-  background-color: #DDBD73;
+  border: 1px solid #000000;
+  background: #ffff;
 }
 
 .arch_contact_us_duplicate .form-wrapper {
   border-bottom-width: 4px;
   border-bottom-style: solid;
-  border-bottom-color: #DDBD73;
+  border-bottom-color: #000000;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 60px;
@@ -187,11 +188,11 @@
 }
 
 .arch_contact_us_duplicate .input-element {
-  background-color: #DDBD73;
+  background-color: #959393cf;
 }
 
 .arch_contact_us_duplicate .icon-block.social-icon {
-  fill: #DDBD73;
+  fill: #000000;
 }
 
 @media (max-width: 1024px) {

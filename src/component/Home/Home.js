@@ -14,9 +14,9 @@ const Home = () => {
   return (
     <div>
       <CarouselSection></CarouselSection>
-      <ShortDes></ShortDes>
       <Gallary></Gallary>
       <ShortProject></ShortProject>
+      <ShortDes></ShortDes>
       <Services></Services>
       <Members></Members>
       <ContactUs></ContactUs>
