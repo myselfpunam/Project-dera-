@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Projects.css'
+import { Link } from 'react-router-dom';
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
@@ -7,10 +8,7 @@ const Projects = () => {
       .then(res => res.json())
       .then(data => setProjects(data))
   }, [])
-  const getShortDescription = (description) => {
-    // Limit the description to 100 characters for brevity
-    return description.length > 100 ? `${description.slice(0, 100)}...` : description;
-  };
+
   return (
     <div className='project-container container'>
       <div className="row">
@@ -20,7 +18,9 @@ const Projects = () => {
               <div className='image-container'>
                 <img src={project.img} alt="" />
               </div>
-              <h5 className='project-title text-start'><a className=' primary-text-anchor ' href="">{project.name}</a></h5>
+              <h5 className='project-title text-start'>
+                <Link className='primary-text-anchor' to={`/projects/${project.id}`}>{project.name}</Link>
+              </h5>
               <p className='project-des text-start'></p>
             </div>
           ))}
