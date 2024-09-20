@@ -10,6 +10,7 @@ import ContactUs from './component/ContactUs/ContactUs';
 import SignUp from './component/SignUp/SignUp';
 import Projects from './component/Projects/Projects';
 import ProjectDetails from './component/ProjectDetails/ProjectDetails';
+import AboutUs from './component/AboutUs/AboutUs';
 
 function App() {
   const router = createBrowserRouter([
@@ -41,6 +42,10 @@ function App() {
         {
           path:'projects/:id',
           element: <ProjectDetails></ProjectDetails>,
+        },
+        {
+          path:'about',
+          element: <AboutUs></AboutUs>,
         },
         
       ]
