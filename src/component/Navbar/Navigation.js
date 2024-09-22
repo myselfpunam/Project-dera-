@@ -46,7 +46,7 @@ const Navigation = () => {
               <Nav.Link className='list-item nav-items' href="/contact">Contact Us</Nav.Link>
             </Nav>
             <div className='ms-auto'>
-              <Link to='/login'><button className="styled-button ms-auto">Login</button></Link>
+              <Link to='/login'><button className=" styled-button ms-auto">Login</button></Link>
               <Link to='/register'><button className="styled-button">Signup</button></Link>
             </div>
           </Navbar.Collapse>
