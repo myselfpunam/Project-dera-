@@ -8,6 +8,10 @@ import {
   MDBRow,
   MDBBtn
 } from 'mdb-react-ui-kit';
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
+
 const Footer = () => {
   return (
     <MDBFooter className='text-center' color='white' bgColor='dark'>
@@ -91,24 +95,20 @@ const Footer = () => {
               <ul className='list-unstyled mb-0'>
                 <li>
                   <a href='#!' className='text-white'>
-                    Link 1
+                    Facebook
                   </a>
                 </li>
                 <li>
                   <a href='#!' className='text-white'>
-                    Link 2
+                    Instagram
                   </a>
                 </li>
                 <li>
                   <a href='#!' className='text-white'>
-                    Link 3
+                    YouTube
                   </a>
                 </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 4
-                  </a>
-                </li>
+                
               </ul>
             </MDBCol>
 
@@ -119,27 +119,17 @@ const Footer = () => {
                 style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px' }}
               />
 
-              <ul className='list-unstyled mb-0'>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 1
-                  </a>
+              <ul className='list-unstyled mb-0 px-5'>
+                <li className='text-start'>
+                  <BsFillTelephoneFill />  +8801318587686
                 </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 2
-                  </a>
+                <li className='text-start'>
+                <MdEmail /> test@gmail.com
                 </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 3
-                  </a>
+                <li className='text-start'>
+                <FaLocationDot /> Dhaka, Bangladesh
                 </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 4
-                  </a>
-                </li>
+                
               </ul>
             </MDBCol>
           </MDBRow>
